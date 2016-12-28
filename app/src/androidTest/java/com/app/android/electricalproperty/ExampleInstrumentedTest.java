@@ -1,4 +1,4 @@
-package com.app.android.electricalproperty.electricalproperty;
+package com.app.android.electricalproperty;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

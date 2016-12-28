@@ -1,4 +1,4 @@
-package com.app.android.electricalproperty.electricalproperty;
+package com.app.android.electricalproperty;
 
 import org.junit.Test;
 
