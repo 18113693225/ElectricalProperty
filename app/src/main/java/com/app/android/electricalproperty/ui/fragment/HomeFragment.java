@@ -8,10 +8,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.app.android.electricalproperty.R;
 import com.app.android.electricalproperty.utils.GlideImageLoader;
+import com.app.android.electricalproperty.utils.tool.SampleSnackBar;
 import com.youth.banner.Banner;
 import com.youth.banner.BannerConfig;
 import com.youth.banner.Transformer;
@@ -112,6 +112,6 @@ public class HomeFragment extends Fragment implements OnBannerClickListener {
     //下标从1开始
     @Override
     public void OnBannerClick(int position) {
-        Toast.makeText(getActivity(), "你点击了第" + position + "张图", Toast.LENGTH_SHORT).show();
+        SampleSnackBar.showShortSnackBar(getView(), "你点击了第" + position + "张图");
     }
 }

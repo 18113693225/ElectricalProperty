@@ -1,6 +1,7 @@
 package com.app.android.electricalproperty;
 
 import android.support.annotation.IdRes;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
