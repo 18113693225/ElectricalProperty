@@ -2,18 +2,18 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/menu_home"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_menu_home"
         android:title="首页" />
     <item
         android:id="@+id/menu_im"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_menu_msg"
         android:title="咨询" />
     <item
         android:id="@+id/menu_info"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_menu_info"
         android:title="信息发布" />
     <item
         android:id="@+id/menu_myself"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_menu_myself"
         android:title="我" />
 </menu>

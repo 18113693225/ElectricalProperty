@@ -36,12 +36,12 @@
             android:text="@string/home_check_task" />
 
         <ImageView
-            android:layout_width="@dimen/weight_30"
-            android:layout_height="@dimen/height_30"
+            android:layout_width="@dimen/weight_20"
+            android:layout_height="@dimen/height_20"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:scaleType="centerCrop"
-            android:src="@mipmap/ic_launcher" />
+            android:src="@mipmap/ic_arrow_right" />
     </RelativeLayout>
 
     <View
@@ -64,7 +64,7 @@
             <ImageView
                 android:layout_width="@dimen/weight_50"
                 android:layout_height="@dimen/height_50"
-                android:src="@mipmap/ic_launcher" />
+                android:src="@mipmap/ic_company_intro" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -89,13 +89,13 @@
             <ImageView
                 android:layout_width="@dimen/weight_50"
                 android:layout_height="@dimen/height_50"
-                android:src="@mipmap/ic_launcher" />
+                android:src="@mipmap/ic_business_intro" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/margin_5"
-                android:text="业务简介" />
+                android:text="技术咨询" />
 
         </LinearLayout>
 
@@ -114,13 +114,13 @@
             <ImageView
                 android:layout_width="@dimen/weight_50"
                 android:layout_height="@dimen/height_50"
-                android:src="@mipmap/ic_launcher" />
+                android:src="@mipmap/ic_electric_power_operation" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/margin_5"
-                android:text="业务简介" />
+                android:text="电力运行" />
 
         </LinearLayout>
 
@@ -146,13 +146,13 @@
             <ImageView
                 android:layout_width="@dimen/weight_50"
                 android:layout_height="@dimen/height_50"
-                android:src="@mipmap/ic_launcher" />
+                android:src="@mipmap/ic_electricity_try_repairing" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/margin_5"
-                android:text="业务简介" />
+                android:text="电力检修" />
 
         </LinearLayout>
 
@@ -171,13 +171,13 @@
             <ImageView
                 android:layout_width="@dimen/weight_50"
                 android:layout_height="@dimen/height_50"
-                android:src="@mipmap/ic_launcher" />
+                android:src="@mipmap/ic_project_management" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/margin_5"
-                android:text="业务简介" />
+                android:text="项目管理" />
 
         </LinearLayout>
 
@@ -196,13 +196,13 @@
             <ImageView
                 android:layout_width="@dimen/weight_50"
                 android:layout_height="@dimen/height_50"
-                android:src="@mipmap/ic_launcher" />
+                android:src="@mipmap/ic_safety_culture" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/margin_5"
-                android:text="业务简介" />
+                android:text="安全文明" />
 
         </LinearLayout>
 
@@ -228,13 +228,13 @@
             <ImageView
                 android:layout_width="@dimen/weight_50"
                 android:layout_height="@dimen/height_50"
-                android:src="@mipmap/ic_launcher" />
+                android:src="@mipmap/ic_equipment_management" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/margin_5"
-                android:text="业务简介" />
+                android:text="设备管理" />
 
         </LinearLayout>
 
@@ -253,13 +253,13 @@
             <ImageView
                 android:layout_width="@dimen/weight_50"
                 android:layout_height="@dimen/height_50"
-                android:src="@mipmap/ic_launcher" />
+                android:src="@mipmap/ic_two_tickets_management" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/margin_5"
-                android:text="业务简介" />
+                android:text="两票管理" />
 
         </LinearLayout>
 
@@ -278,13 +278,13 @@
             <ImageView
                 android:layout_width="@dimen/weight_50"
                 android:layout_height="@dimen/height_50"
-                android:src="@mipmap/ic_launcher" />
+                android:src="@mipmap/ic_customer_management" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/margin_5"
-                android:text="业务简介" />
+                android:text="客户管理" />
 
         </LinearLayout>
 
