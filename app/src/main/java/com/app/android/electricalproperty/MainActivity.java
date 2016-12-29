@@ -11,7 +11,6 @@ import com.roughike.bottombar.OnMenuTabClickListener;
 
 
 public class MainActivity extends AppCompatActivity {
-
     private static final int INDEX_HOME = 0;
     private static final int INDEX_IM = 1;
     private static final int INDEX_INFO = 2;
