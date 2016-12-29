@@ -7,5 +7,6 @@
     <color name="white">#FFFFFF</color>
     <color name="bg_action_bar">#00715d</color>
     <color name="black">#000000</color>
+    <color name="bg_view">#E2E2E2</color>
 
 </resources>

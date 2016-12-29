@@ -22,6 +22,7 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 public class HomeFragment extends Fragment implements OnBannerClickListener {
     @BindView(R.id.toolBar)
@@ -76,6 +77,36 @@ public class HomeFragment extends Fragment implements OnBannerClickListener {
         banner.setBannerStyle(BannerConfig.CIRCLE_INDICATOR);
         banner.setIndicatorGravity(BannerConfig.RIGHT);
         banner.setOnBannerClickListener(this);
+    }
+
+    @OnClick({R.id.check_task_rl, R.id.company_intro_ll, R.id.business_intro_ll, R.id.electric_power_operation_ll
+            , R.id.electricity_try_repairing_ll, R.id.project_management_ll, R.id.safety_culture_ll, R.id.equipment_management_ll
+            , R.id.two_tickets_management_ll, R.id.customer_management_ll})
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case R.id.check_task_rl:
+                break;
+            case R.id.company_intro_ll:
+                break;
+            case R.id.business_intro_ll:
+                break;
+            case R.id.electric_power_operation_ll:
+                break;
+            case R.id.electricity_try_repairing_ll:
+                break;
+            case R.id.project_management_ll:
+                break;
+            case R.id.safety_culture_ll:
+                break;
+            case R.id.equipment_management_ll:
+                break;
+            case R.id.two_tickets_management_ll:
+                break;
+            case R.id.customer_management_ll:
+                break;
+            default:
+                break;
+        }
     }
 
     //下标从1开始

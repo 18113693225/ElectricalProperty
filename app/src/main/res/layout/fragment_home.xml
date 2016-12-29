@@ -14,8 +14,10 @@
         android:layout_height="@dimen/height_150" />
 
     <RelativeLayout
+        android:id="@+id/check_task_rl"
         android:layout_width="match_parent"
         android:layout_height="@dimen/height_50"
+        android:background="@drawable/click_bg_white"
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin">
 
@@ -25,15 +27,16 @@
             android:layout_height="@dimen/height_30"
             android:layout_centerVertical="true"
             android:scaleType="centerCrop"
-            android:src="@mipmap/ic_launcher" />
+            android:src="@mipmap/ic_check_task" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="@dimen/margin_5"
+            android:layout_marginLeft="@dimen/margin_10"
             android:layout_toRightOf="@+id/alert_iv"
-            android:text="@string/home_check_task" />
+            android:text="@string/home_check_task"
+            android:textStyle="bold" />
 
         <ImageView
             android:layout_width="@dimen/weight_20"
@@ -55,9 +58,11 @@
         android:orientation="horizontal">
 
         <LinearLayout
+            android:id="@+id/company_intro_ll"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="@drawable/click_bg_white"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -80,9 +85,11 @@
             android:background="@color/black" />
 
         <LinearLayout
+            android:id="@+id/business_intro_ll"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="@drawable/click_bg_white"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -105,9 +112,11 @@
             android:background="@color/black" />
 
         <LinearLayout
+            android:id="@+id/electric_power_operation_ll"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="@drawable/click_bg_white"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -137,9 +146,11 @@
         android:orientation="horizontal">
 
         <LinearLayout
+            android:id="@+id/electricity_try_repairing_ll"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="@drawable/click_bg_white"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -162,9 +173,11 @@
             android:background="@color/black" />
 
         <LinearLayout
+            android:id="@+id/project_management_ll"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="@drawable/click_bg_white"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -187,9 +200,11 @@
             android:background="@color/black" />
 
         <LinearLayout
+            android:id="@+id/safety_culture_ll"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="@drawable/click_bg_white"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -219,9 +234,11 @@
         android:orientation="horizontal">
 
         <LinearLayout
+            android:id="@+id/equipment_management_ll"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="@drawable/click_bg_white"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -244,9 +261,11 @@
             android:background="@color/black" />
 
         <LinearLayout
+            android:id="@+id/two_tickets_management_ll"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="@drawable/click_bg_white"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -269,9 +288,11 @@
             android:background="@color/black" />
 
         <LinearLayout
+            android:id="@+id/customer_management_ll"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="@drawable/click_bg_white"
             android:gravity="center"
             android:orientation="vertical">
 
