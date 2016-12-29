@@ -15,10 +15,7 @@ import butterknife.ButterKnife;
 
 
 public class MyselfFragment extends Fragment {
-    @BindView(R.id.toolBar)
-    Toolbar toolbar;
-    @BindView(R.id.toolbar_center_tv)
-    TextView title;
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -30,12 +27,8 @@ public class MyselfFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_myself, container, false);
         ButterKnife.bind(this, view);
-        init();
         return view;
     }
 
-    private void init() {
-        toolbar.setTitle("");
-        title.setText("我");
-    }
+
 }
