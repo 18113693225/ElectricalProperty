@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ElectricalProperty</string>
+    <string name="home_check_task">查看检修任务</string>
 </resources>
