@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.afollestad.materialdialogs.MaterialDialog;
 import com.app.android.electricalproperty.R;
 import com.app.android.electricalproperty.utils.GlideImageLoader;
 import com.app.android.electricalproperty.utils.tool.SampleSnackBar;
@@ -113,5 +114,9 @@ public class HomeFragment extends Fragment implements OnBannerClickListener {
     @Override
     public void OnBannerClick(int position) {
         SampleSnackBar.showShortSnackBar(getView(), "你点击了第" + position + "张图");
+//        new MaterialDialog.Builder(getActivity())
+//                .title("提示")
+//                .progress(true, 0)
+//                .show();
     }
 }
