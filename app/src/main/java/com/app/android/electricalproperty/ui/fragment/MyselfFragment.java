@@ -12,6 +12,7 @@ import com.app.android.electricalproperty.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 
 public class MyselfFragment extends Fragment {
@@ -30,5 +31,33 @@ public class MyselfFragment extends Fragment {
         return view;
     }
 
+    @OnClick({R.id.work_manager_rl, R.id.inspection_service_rl, R.id.work_log_rl, R.id.work_plan_rl, R.id.contact_rl
+            , R.id.recommend_rl, R.id.update_rl, R.id.modify_rl, R.id.psw_set_rl, R.id.project_choice_rl})
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case R.id.work_manager_rl:
+                break;
+            case R.id.inspection_service_rl:
+                break;
+            case R.id.work_log_rl:
+                break;
+            case R.id.work_plan_rl:
+                break;
+            case R.id.contact_rl:
+                break;
+            case R.id.recommend_rl:
+                break;
+            case R.id.update_rl:
+                break;
+            case R.id.modify_rl:
+                break;
+            case R.id.psw_set_rl:
+                break;
+            case R.id.project_choice_rl:
+                break;
+            default:
+                break;
+        }
+    }
 
 }
