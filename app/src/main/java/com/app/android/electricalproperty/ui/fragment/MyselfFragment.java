@@ -32,7 +32,7 @@ public class MyselfFragment extends Fragment {
     }
 
     @OnClick({R.id.work_manager_rl, R.id.inspection_service_rl, R.id.work_log_rl, R.id.work_plan_rl, R.id.contact_rl
-            , R.id.recommend_rl, R.id.update_rl, R.id.modify_rl, R.id.psw_set_rl, R.id.project_choice_rl})
+            , R.id.recommend_rl, R.id.update_rl, R.id.modify_rl, R.id.psw_set_rl, R.id.project_choice_rl, R.id.exit_rl})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.work_manager_rl:
@@ -54,6 +54,8 @@ public class MyselfFragment extends Fragment {
             case R.id.psw_set_rl:
                 break;
             case R.id.project_choice_rl:
+                break;
+            case R.id.exit_rl:
                 break;
             default:
                 break;
