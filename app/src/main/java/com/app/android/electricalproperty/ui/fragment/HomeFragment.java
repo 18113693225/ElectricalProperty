@@ -116,4 +116,10 @@ public class HomeFragment extends Fragment implements OnBannerClickListener {
     public void OnBannerClick(int position) {
         SampleMaterialDialog.getInstance().showDialog(getActivity(), "温馨提示", "图片上传中，请稍等...");
     }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        SampleMaterialDialog.getInstance().dismissDialog();
+    }
 }

@@ -17,16 +17,12 @@ public class SampleMaterialDialog {
     }
 
     public void showDialog(Context context, String title, String content) {
-        if (null == dialog) {
-            dialog = new MaterialDialog.Builder(context)
-                    .title(title)
-                    .content(content)
-                    .progress(true, 0)
-                    .canceledOnTouchOutside(false)
-                    .show();
-        } else {
-            dialog.show();
-        }
+        dialog = new MaterialDialog.Builder(context)
+                .title(title)
+                .content(content)
+                .progress(true, 0)
+                .canceledOnTouchOutside(false)
+                .show();
     }
 
     public void dismissDialog() {
