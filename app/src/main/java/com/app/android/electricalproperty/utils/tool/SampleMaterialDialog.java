@@ -4,8 +4,6 @@ package com.app.android.electricalproperty.utils.tool;
 import android.content.Context;
 
 import com.afollestad.materialdialogs.MaterialDialog;
-import com.app.android.electricalproperty.R;
-
 
 public class SampleMaterialDialog {
     private static SampleMaterialDialog sampleMaterialDialog;
@@ -19,12 +17,16 @@ public class SampleMaterialDialog {
     }
 
     public void showDialog(Context context, String title, String content) {
-        dialog = new MaterialDialog.Builder(context)
-                .title(title)
-                .content(content)
-                .progress(true, 0)
-                .canceledOnTouchOutside(false)
-                .show();
+        if (null == dialog) {
+            dialog = new MaterialDialog.Builder(context)
+                    .title(title)
+                    .content(content)
+                    .progress(true, 0)
+                    .canceledOnTouchOutside(false)
+                    .show();
+        } else {
+            dialog.show();
+        }
     }
 
     public void dismissDialog() {

@@ -114,7 +114,6 @@ public class HomeFragment extends Fragment implements OnBannerClickListener {
     //下标从1开始
     @Override
     public void OnBannerClick(int position) {
-        //SampleSnackBar.showShortSnackBar(getView(), "你点击了第" + position + "张图");
         SampleMaterialDialog.getInstance().showDialog(getActivity(), "温馨提示", "图片上传中，请稍等...");
     }
 }
