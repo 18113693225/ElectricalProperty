@@ -12,6 +12,7 @@ import android.widget.TextView;
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.app.android.electricalproperty.R;
 import com.app.android.electricalproperty.utils.GlideImageLoader;
+import com.app.android.electricalproperty.utils.tool.SampleMaterialDialog;
 import com.app.android.electricalproperty.utils.tool.SampleSnackBar;
 import com.youth.banner.Banner;
 import com.youth.banner.BannerConfig;
@@ -113,10 +114,7 @@ public class HomeFragment extends Fragment implements OnBannerClickListener {
     //下标从1开始
     @Override
     public void OnBannerClick(int position) {
-        SampleSnackBar.showShortSnackBar(getView(), "你点击了第" + position + "张图");
-//        new MaterialDialog.Builder(getActivity())
-//                .title("提示")
-//                .progress(true, 0)
-//                .show();
+        //SampleSnackBar.showShortSnackBar(getView(), "你点击了第" + position + "张图");
+        SampleMaterialDialog.getInstance().showDialog(getActivity(), "温馨提示", "图片上传中，请稍等...");
     }
 }
