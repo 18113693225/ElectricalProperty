@@ -34,7 +34,8 @@ public class HomeFragment extends Fragment implements OnBannerClickListener {
     @BindView(R.id.banner)
     Banner banner;
     String[] image = {"http://img.51ztzj.com/upload/image/20140401/sj2014040305_279x419.jpg", "http://img.51ztzj.com/upload/image/20140916/sj201409161014_279x419.jpg"
-            , "http://img.51ztzj.com/upload/image/20141111/sj201411101025_279x419.jpg", "http://img.51ztzj.com/upload/image/20141225/sj201412251021_279x419.jpg", "http://img2.imgtn.bdimg.com/it/u=1922929249,102637201&fm=23&gp=0.jpg"};
+            , "http://img.51ztzj.com/upload/image/20141111/sj201411101025_279x419.jpg", "http://img.51ztzj.com/upload/image/20141225/sj201412251021_279x419.jpg"
+            , "http://img2.imgtn.bdimg.com/it/u=1922929249,102637201&fm=23&gp=0.jpg"};
     List<String> Img = new ArrayList<>();
 
     @Override
