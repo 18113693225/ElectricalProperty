@@ -82,7 +82,7 @@ public class WebViewActivity extends BaseActivity {
                 return true;
             }
         });
-        mWebView.postUrl("http://api.sc-huadong.cn:8686" + "/api/companyProfile", "id=2".getBytes());
+        mWebView.loadUrl("https://www.baidu.com/");
     }
 
     @Override
