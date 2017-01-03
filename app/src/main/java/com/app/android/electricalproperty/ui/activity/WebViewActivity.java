@@ -4,6 +4,7 @@ package com.app.android.electricalproperty.ui.activity;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
@@ -21,10 +22,6 @@ import butterknife.ButterKnife;
 
 public class WebViewActivity extends BaseActivity {
 
-    @BindView(R.id.toolBar)
-    Toolbar toolbar;
-    @BindView(R.id.toolbar_center_tv)
-    TextView title;
     @BindView(R.id.prgBar)
     ProgressBar mPrgBar;
     @BindView(R.id.web)
@@ -41,10 +38,7 @@ public class WebViewActivity extends BaseActivity {
     }
 
     private void setUpToolbar() {
-        toolbar.setTitle("");
-        title.setText("业务介绍");
-        setSupportActionBar(toolbar);
-        toolbar.setNavigationIcon(R.mipmap.ic_back);
+        setTitle("业务介绍");
     }
 
     @Override
@@ -68,13 +62,11 @@ public class WebViewActivity extends BaseActivity {
         mWebView.setWebChromeClient(new WebChromeClient() {
             @Override
             public void onProgressChanged(WebView view, int newProgress) {
-                if (newProgress == 100) {
-                    if (mPrgBar != null) {
+                if (mPrgBar != null) {
+                    if (newProgress == 100) {
                         mPrgBar.setVisibility(View.GONE);
                         mPrgBar.setProgress(0);
-                    }
-                } else {
-                    if (mPrgBar != null) {
+                    } else {
                         if (View.GONE == mPrgBar.getVisibility()) {
                             mPrgBar.setVisibility(View.VISIBLE);
                         }
@@ -90,16 +82,7 @@ public class WebViewActivity extends BaseActivity {
                 return true;
             }
         });
-        mWebView.loadUrl("https://github.com/18113693225/ElectricalProperty");
-    }
-
-    @Override
-    public void onBackPressed() {
-        if (mWebView.canGoBack()) {
-            mWebView.goBack();
-        } else {
-            finish();
-        }
+        mWebView.postUrl("http://api.sc-huadong.cn:8686" + "/api/companyProfile", "id=2".getBytes());
     }
 
     @Override

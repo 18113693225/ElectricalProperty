@@ -4,10 +4,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <include
-        android:id="@+id/toolBar"
-        layout="@layout/custom_toolbar" />
-
     <ProgressBar
         android:id="@+id/prgBar"
         style="?android:attr/progressBarStyleHorizontal"
