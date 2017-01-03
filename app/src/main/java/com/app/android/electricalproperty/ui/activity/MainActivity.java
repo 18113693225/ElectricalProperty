@@ -1,17 +1,17 @@
-package com.app.android.electricalproperty;
+package com.app.android.electricalproperty.ui.activity;
 
 import android.support.annotation.IdRes;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.app.android.electricalproperty.R;
+import com.app.android.electricalproperty.ui.activity.BaseActivity;
 import com.app.android.electricalproperty.ui.adapter.FragmentAdapter;
 import com.aspsine.fragmentnavigator.FragmentNavigator;
 import com.roughike.bottombar.BottomBar;
 import com.roughike.bottombar.OnMenuTabClickListener;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
     private static final int INDEX_HOME = 0;
     private static final int INDEX_IM = 1;
     private static final int INDEX_INFO = 2;

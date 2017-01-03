@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.afollestad.materialdialogs.MaterialDialog;
+import com.app.android.electricalproperty.Navigator;
 import com.app.android.electricalproperty.R;
 import com.app.android.electricalproperty.utils.GlideImageLoader;
 import com.app.android.electricalproperty.utils.tool.SampleMaterialDialog;
@@ -90,6 +91,7 @@ public class HomeFragment extends Fragment implements OnBannerClickListener {
             case R.id.check_task_rl:
                 break;
             case R.id.company_intro_ll:
+                Navigator.startWebViewActivity(getActivity());
                 break;
             case R.id.business_intro_ll:
                 break;
