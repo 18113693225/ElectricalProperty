@@ -27,7 +27,6 @@ public class WebViewActivity extends BaseActivity {
     @BindView(R.id.web)
     WebView mWebView;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
