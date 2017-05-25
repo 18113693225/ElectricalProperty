@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        icon="@mipmap/ic_menu_home"
+        id="@+id/tab_home"
+        title="@string/home" />
+    <tab
+        icon="@mipmap/ic_menu_msg"
+        id="@+id/tab_info"
+        title="@string/info" />
+    <tab
+        icon="@mipmap/ic_menu_myself"
+        id="@+id/tab_myself"
+        title="@string/myself" />
+</tabs>

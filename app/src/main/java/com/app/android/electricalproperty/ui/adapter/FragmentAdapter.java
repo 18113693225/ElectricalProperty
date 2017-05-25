@@ -4,7 +4,6 @@ package com.app.android.electricalproperty.ui.adapter;
 import android.support.v4.app.Fragment;
 
 import com.app.android.electricalproperty.ui.fragment.HomeFragment;
-import com.app.android.electricalproperty.ui.fragment.ImFragment;
 import com.app.android.electricalproperty.ui.fragment.InfoFragment;
 import com.app.android.electricalproperty.ui.fragment.MyselfFragment;
 import com.aspsine.fragmentnavigator.FragmentNavigatorAdapter;
@@ -17,7 +16,6 @@ public class FragmentAdapter implements FragmentNavigatorAdapter {
     public FragmentAdapter() {
         mFragments.clear();
         mFragments.add(new HomeFragment());
-        mFragments.add(new ImFragment());
         mFragments.add(new InfoFragment());
         mFragments.add(new MyselfFragment());
     }
